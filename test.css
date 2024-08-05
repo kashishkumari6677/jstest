@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menuicon{
+    width: 50px;
+    
+}
+.menuicon img{
+    width: 100%;
+}
+.menu {
+    background-color: rgb(172, 149, 149);
+    color: black;
+    width: 60%;
+    position:absolute ;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    display: none;
+   padding: 30px;
+    
+}
+.menu li{
+    list-style: none;
+    color: black;
+}
+.menu a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.show {
+    display: flex;
+}
+.previous{
+    width: 40px;
+    align-items: flex-end;
+}
+
+.previous img{
+    width: 100%;
+}
